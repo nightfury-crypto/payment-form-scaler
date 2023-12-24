@@ -35,7 +35,8 @@ function ActivePage2({setActivePage}) {
       </RadioGroup>
       </FormControl>
       <div className={styles.visual}>
-      {(value === "debit" || value === "credit") && <DebitCard />}
+      {value === "debit"&& <DebitCard n={"DEBIT"}/>}
+      {value === "credit" && <DebitCard n={"CREDIT"}/>}
       {value === "upi" && <UPI />}
       </div>
       

@@ -5,20 +5,26 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgba(29,29,29,0.9);
+  background-color: rgb(57, 60, 84);
+  background-image: url("https://www.transparentpng.com/thumb/pattern/j3QWdG-logos-and-branding.png");
+  background-blend-mode: screen;
 }
 
 .paymentWrapper {
   width: 100%;
+  max-width: 1000px;
+  max-height: 95vh;
   height: 100%;
   border-radius: 8px;
   position: relative;
   z-index: 1;
-  background-color: #151b21;
+  background-color: #191f34;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  background-image: url("https://www.transparentpng.com/thumb/pattern/j3QWdG-logos-and-branding.png");
+  background-blend-mode: screen;
 }
 
 .paymentTop {

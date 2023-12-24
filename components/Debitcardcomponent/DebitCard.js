@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import styles from "./DebitCard.module.css";
 
-function DebitCard() {
+function DebitCard({n}) {
   const [cardNumber, setCardNumber] = useState("");
   const [isBackSpace, setIsBacKspace] = useState(false)
 
@@ -74,7 +74,7 @@ function DebitCard() {
         {/* front card */}
         <div className={styles.card2}>
           <div className={styles.cardTop}>
-            <h1 className={styles.heading}>CARD</h1>
+            <h1 className={styles.heading}>{n} CARD</h1>
             <img src="/img/chip.png" alt="chip" className={styles.chipimg} />
           </div>
           <div className={styles.formWrapper}>

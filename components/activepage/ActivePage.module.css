@@ -38,10 +38,11 @@
     border: 2.5px solid #fff;
     padding: 10px;
     outline: none;
+    color: #fff;
 }
 
 .textArea::placeholder {
-    color: rgb(223, 216, 206);
+    color: rgba(223, 216, 206, 0.48);
     font-size: 17px;
 }
 
@@ -55,7 +56,7 @@
 }
 
 .visual {
-    width: fit-content;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
