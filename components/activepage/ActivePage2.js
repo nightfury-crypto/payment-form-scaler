@@ -4,6 +4,7 @@ import TextField from '@mui/material/TextField';
 import styles from "./ActivePage.module.css"
 import { TextareaAutosize } from '@mui/material';
 import Button from '@mui/material/Button';
+import DebitCard from '../Debitcardcomponent/DebitCard';
 
 function ActivePage2({setActivePage}) {
     const handleNext = () => {
@@ -11,13 +12,11 @@ function ActivePage2({setActivePage}) {
     }
   return (
     <div className={styles.form}>
-      <TextField id="outlined-basic" label="Full Name" variant="outlined" className={styles.fname} />
-      <TextField id="outlined-basic" label="Email" variant="outlined" className={styles.fname} />
-      <TextField id="outlined-basic" label="Phone Number" variant="outlined" className={styles.fname} />
-      <textarea aria-label="empty textarea" placeholder="Billing Address" className={styles.textArea}/>
+      <DebitCard />
+      
       <div className={styles.btnWrapper}>
       <Button variant="outlined" color='success' onClick={handleNext}>BACK</Button>
-      <Button variant="contained" color='success' onClick={handleNext}>NEXT</Button>
+      {/* <Button variant="contained" color='success' onClick={handleNext}>NEXT</Button> */}
       </div>
     </div>
   )
