@@ -1,0 +1,21 @@
+.upiId {
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    outline: 0;
+    background-color: transparent;
+    margin: auto;
+}
+
+.btn {
+    max-width: fit-content;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(26, 57, 134);
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}

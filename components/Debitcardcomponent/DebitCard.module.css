@@ -99,12 +99,12 @@
     outline: none;
     border: 0;
     cursor: pointer;
-    background-color: #6d59a1;
+    background-color: #503f7ecc;
     color: #ffffff;
     font-weight: 500;
 }
 .btn:last-child {
-    background-color: #503f7ecc;
+    background-color: #6d59a1;
 }
 
 /* card2 */
@@ -188,7 +188,7 @@
     width: 100%;
     max-width: 66px;
     height: 35px;
-    padding: 0 9px;
+    padding: 0 7px;
     background-color: #6d59a1;
     font-size: 16px;
     color: #fff;
