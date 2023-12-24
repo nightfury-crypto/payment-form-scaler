@@ -10,7 +10,7 @@ import FormLabel from '@mui/material/FormLabel';
 import UPI from '../upimethod/UPI';
 
 function ActivePage2({setActivePage}) {
-    const [value, setValue] = useState("")
+    const [value, setValue] = useState("debit")
     const handleBack = () => {
         setActivePage(0)
     }
